@@ -142,10 +142,49 @@ button {
 }
 
 .content-bottom div {
-  width: 32%;
+  width: 31%;
 }
 
 footer div {
   display: flex;
   justify-content: center;
+}
+
+.hr-top {
+  margin-top: 8%;
+  margin-bottom: 4%;
+}
+
+h3 {
+  font-size: 125%;
+}
+
+article .content-top div {
+  width: 48%;
+}
+
+.content-top div p {
+  font-size: 115%;
+}
+
+.content-bottom div p {
+  font-size: 115%;
+}
+
+#middle-img {
+  margin-top: 4%;
+  width: 100%;
+}
+
+.content-bottom {
+  margin-top: 4%;
+}
+
+.hr-bottom {
+  margin-top: 4%;
+  margin-bottom: 3%;
+}
+
+footer p {
+  margin-top: 4%;
 }
