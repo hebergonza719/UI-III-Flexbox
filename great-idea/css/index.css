@@ -67,24 +67,64 @@ h1, h2, h3, h4, h5 {
 .container {
   width: 85%;
   margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .container header {
   display: flex;
   justify-content: space-between;
+  margin-top: 2%;
 }
 
 .container header nav {
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 63%;
   align-items: center;
+}
+
+.container header div {
+  width: 35%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.logo {
+  width: 58%;
+  margin-right: 5%;
+}
+
+nav a {
+  text-decoration: none;
+  color: silver;
+  font-weight: 600;
 }
 
 #h1-button-img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
+  margin-top: 5%;
+}
+
+#h1-button-img div h1 {
+  font-size: 100px;
+}
+
+#h1-button-img div {
+  width: 50%;
+}
+
+#img-header {
+  width: 100%;
+}
+
+button {
+  width: 220px;
+  height: 45px;
+  background-color: white;
 }
 
 .content-top {
