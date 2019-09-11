@@ -109,3 +109,75 @@ nav a {
   color: silver;
   font-weight: 600;
 }
+
+#main-heading {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3%;
+}
+
+#service-img-container {
+  width: 100%;
+}
+
+.services-header-img {
+  width: 100%;
+}
+
+#services-info {
+  width: 100%;
+  margin-top: 3%;
+}
+
+#services-info h1 {
+  font-size: 200%;
+}
+
+#services-info p {
+  font-size: 125%;
+}
+
+#hr-top {
+  margin-top: 4%;
+  margin-bottom: 0;
+}
+
+#middle-article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-evenly;
+  height: 1200px;
+}
+
+#middle-article section {
+  width: 48%;
+  border: 1px solid black;
+  height: 27%;
+  /* padding: 0 1.5%; */
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+  background-color: #f4f3f4;
+}
+
+#middle-article section h3 {
+  font-size: 130%;
+  margin: 0 0 0 6%;
+}
+
+#hr-bottom {
+  margin-top: 0;
+}
+
+#middle-article section p {
+  font-size: 125%;
+  margin-left: 6%;
+}
+
+#middle-article section button {
+  padding: 14px 40px;
+  border-radius: 5px;
+  background-color: white;
+  margin-left: 6%;
+}
