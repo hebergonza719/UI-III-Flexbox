@@ -181,3 +181,42 @@ nav a {
   background-color: white;
   margin-left: 6%;
 }
+
+#bottom-section {
+  margin-top: 4%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#bottom-section div h3 {
+  font-size: 130%;
+}
+
+#facts-services {
+  width: 48%;
+}
+
+.services-info-img {
+  width: 48%;
+}
+
+#facts-services p {
+  font-size: 125%;
+}
+
+ul li {
+  list-style: inside;
+  font-size: 125%;
+  margin: 1em 0;
+}
+
+footer {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+footer p {
+  font-size: 125%;
+}
